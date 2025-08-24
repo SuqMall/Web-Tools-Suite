@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ultimate Web Tools Suite</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    :root {
+      --primary: #4361ee;
+      --secondary: #3a0ca3;
+      --accent: #f72585;
+      --bg: #f8f9fa;
+      --card-bg: #ffffff;
+      --text: #212529;
+      --muted: #6c757d;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+    }
+
+    header {
+      background: linear-gradient(135deg, var(--primary), var(--secondary));
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    header p {
+      margin: 0.5rem 0 0;
+      font-size: 1.2rem;
+    }
+
+    main {
+      padding: 2rem 1rem;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .tool-card {
+      background: var(--card-bg);
+      border-radius: 1rem;
+      padding: 1.5rem;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+      transition: transform 0.2s, box-shadow 0.2s;
+      text-align: center;
+    }
+
+    .tool-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+    }
+
+    .tool-card i {
+      font-size: 2rem;
+      color: var(--primary);
+      margin-bottom: 1rem;
+    }
+
+    .tool-card h3 {
+      margin: 0.5rem 0;
+      font-size: 1.3rem;
+    }
+
+    .tool-card p {
+      color: var(--muted);
+      font-size: 0.95rem;
+      margin-bottom: 1rem;
+    }
+
+    .tool-card button {
+      background: var(--primary);
+      color: white;
+      border: none;
+      padding: 0.6rem 1.2rem;
+      border-radius: 0.5rem;
+      cursor: pointer;
+      font-size: 0.9rem;
+      transition: background 0.2s;
+    }
+
+    .tool-card button:hover {
+      background: var(--secondary);
+    }
+
+    footer {
+      background: #212529;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>⚡ Ultimate Web Tools Suite</h1>
+    <p>All-in-one utilities — fast, simple, and device-friendly!</p>
+  </header>
+
+  <main>
+    <div class="tool-card">
+      <i class="fas fa-file-pdf"></i>
+      <h3>PDF to HTML</h3>
+      <p>Convert PDFs into clean, responsive HTML files instantly.</p>
+      <button onclick="alert('PDF to HTML tool coming soon!')">Try Now</button>
+    </div>
+
+    <div class="tool-card">
+      <i class="fas fa-file-word"></i>
+      <h3>DOCX to PDF</h3>
+      <p>Transform Word documents into professional-quality PDFs.</p>
+      <button onclick="alert('DOCX to PDF tool coming soon!')">Try Now</button>
+    </div>
+
+    <div class="tool-card">
+      <i class="fas fa-image"></i>
+      <h3>Image Compressor</h3>
+      <p>Reduce image size without losing quality. Perfect for web use.</p>
+      <button onclick="alert('Image Compressor tool coming soon!')">Try Now</button>
+    </div>
+
+    <div class="tool-card">
+      <i class="fas fa-code"></i>
+      <h3>Code Formatter</h3>
+      <p>Beautify and format your messy code for better readability.</p>
+      <button onclick="alert('Code Formatter tool coming soon!')">Try Now</button>
+    </div>
+
+    <div class="tool-card">
+      <i class="fas fa-lock"></i>
+      <h3>Password Generator</h3>
+      <p>Create strong, secure, and random passwords instantly.</p>
+      <button onclick="alert('Password Generator tool coming soon!')">Try Now</button>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2025 Ultimate Web Tools Suite. All rights reserved.</p>
+  </footer>
+
+  <script>
+    // Future JavaScript logic for actual tools will go here
+    console.log("✅ Web Tools Suite Loaded!");
+  </script>
+</body>
+</html>
